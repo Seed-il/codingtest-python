@@ -19,7 +19,7 @@ ex_3)           | ex_4)
 => 48           | => 97
 '''
 
-import sys
+import sys 
 
 n = sys.stdin.readline().rstrip()
 
