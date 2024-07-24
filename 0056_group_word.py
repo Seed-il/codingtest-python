@@ -41,10 +41,10 @@ cnt = case
 
 for i in range(case) : 
     word = str(input())
-    for j in range(0, len(word)-1) : 
-        if(word[j] == word[j+1]) : 
+    for j in range(0, len(word)-1) :
+        if word[j] == word[j+1] : 
             pass
-        elif word[j] in word[j+1:] : 
+        elif word[j] in word[j+1 : ] :
             cnt -= 1
             break
 print(cnt)
