@@ -35,3 +35,5 @@ input = stdin.readline
 n = int(input())
 
 print((2 ** int(n) + 1) ** 2)
+
+# log: 2025-05-27 Come Back
